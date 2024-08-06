@@ -88,7 +88,7 @@
 #         Maintenance:
 #
 #         Regular maintenance routines should be scheduled for cleaning the dispensing system and restocking ingredients.
-# class Recipe
+class Recipe
   attr_reader :ingredients
 
   def initialize(ingredients)
